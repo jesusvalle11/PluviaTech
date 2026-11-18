@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0874b0">
+  <title>PluviaTech · Innovación tecnológica aplicada al drenaje pluvial</title>
+  <meta name="description" content="Qué van a arreglar en el canal de su barrio, cuándo empieza, cómo va, cuánto cuesta y cuándo lo entregan. Información oficial con fuente y fecha.">
+  <meta property="og:title" content="PluviaTech">
+  <meta property="og:description" content="Obras de los canales pluviales de Cartagena, explicadas claro, con fuente oficial y fecha.">
+  <meta property="og:type" content="website">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="topbar">
+    <div class="wrap topbar__in">
+      <a class="brand" href="#inicio">PluviaTech <span>· Canales pluviales de Cartagena</span></a>
+      <nav class="nav-desk" aria-label="Principal">
+        <a href="#inicio" data-nav="inicio">Inicio</a>
+        <a href="#barrios" data-nav="barrios">Barrios</a>
+        <a href="#canales" data-nav="canales">Canales oficiales</a>
+        <a href="#asistente" data-nav="asistente">Goti</a>
+        <a href="#reportar" data-nav="reportar">Reportar</a>
+        <a href="#cuenta" data-nav="cuenta" id="nav-cuenta-desk">Ingresar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" class="wrap" tabindex="-1"></main>
+
+  <footer class="wrap footer">
+    Vista previa del piloto. Las fichas de obras son de ejemplo; las cifras de «El problema en datos» son reales y llevan su fuente.
+  </footer>
+
+  <nav class="tabbar" aria-label="Navegación inferior">
+    <a href="#inicio" data-nav="inicio"><span data-icon="home"></span>Inicio</a>
+    <a href="#barrios" data-nav="barrios"><span data-icon="pin"></span>Barrios</a>
+    <a href="#canales" data-nav="canales"><span data-icon="phone"></span>Canales</a>
+    <a href="#asistente" data-nav="asistente"><span data-icon="chat"></span>Goti</a>
+    <a href="#cuenta" data-nav="cuenta"><span data-icon="user"></span><span id="nav-cuenta-mob">Cuenta</span></a>
+  </nav>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

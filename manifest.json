@@ -1,0 +1,29 @@
+{
+  "name": "PluviaTech · Canales pluviales de Cartagena",
+  "short_name": "PluviaTech",
+  "description": "Innovación tecnológica aplicada al drenaje pluvial: obras de los canales de su barrio, con fuente oficial y fecha.",
+  "lang": "es-CO",
+  "start_url": "./index.html#inicio",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f8fb",
+  "theme_color": "#0369a1",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
